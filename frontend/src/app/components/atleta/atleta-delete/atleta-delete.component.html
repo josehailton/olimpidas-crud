@@ -1,0 +1,28 @@
+<mat-card class="mat-card">
+    <mat-card-title>Excluir Atleta</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="atleta.name" name="name" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="País" [(ngModel)]="atleta.country" name="country" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Gênero" [(ngModel)]="atleta.gender" name="gender" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Modalidade" [(ngModel)]="atleta.modality" name="modality" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Categoria" [(ngModel)]="atleta.category" name="category" disabled>
+        </mat-form-field>
+    </form>
+
+    <button class="button-delete" mat-raised-button (click)="deleteAtleta()" color="warn">
+        Excluir
+    </button>
+
+    <button class="button-cancel" mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>

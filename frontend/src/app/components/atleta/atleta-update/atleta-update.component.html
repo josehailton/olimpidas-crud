@@ -1,0 +1,28 @@
+<mat-card class="mat-card">
+    <mat-card-title>Alterar Atleta</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="atleta.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="País" [(ngModel)]="atleta.country" name="country">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Gênero" [(ngModel)]="atleta.gender" name="gender">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Modalidade" [(ngModel)]="atleta.modality" name="modality">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Categoria" [(ngModel)]="atleta.category" name="category">
+        </mat-form-field>
+    </form>
+
+    <button class="button-update" mat-raised-button (click)="updateAtleta()" color="primary">
+        Atualizar
+    </button>
+
+    <button class="button-cancel" mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>

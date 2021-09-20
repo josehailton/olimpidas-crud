@@ -1,0 +1,18 @@
+.mat-card {
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-save {
+    width: 120px;
+    margin: 20px;
+}
+
+.button-cancel {
+    margin: 20px;
+}
+

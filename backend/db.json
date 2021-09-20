@@ -1,0 +1,76 @@
+{
+  "atletas": [
+    {
+      "name": "Henrique",
+      "country": "Brasil",
+      "gender": "M",
+      "modality": "Atletismo",
+      "category": "Arremesso de dardos",
+      "id": 1
+    },
+    {
+      "name": "Ana",
+      "country": "Brasil",
+      "gender": "F",
+      "modality": "Vôlei",
+      "category": "Vôlei feminino",
+      "id": 2
+    },
+    {
+      "name": "Arthur",
+      "country": "Inglaterra",
+      "gender": "M",
+      "modality": "Atletismo",
+      "category": "Corrida de 100 metros",
+      "id": 3
+    },
+    {
+      "name": "Evelyn",
+      "country": "Inglaterra",
+      "gender": "F",
+      "modality": "Atletismo",
+      "category": "Salto em distância",
+      "id": 4
+    },
+    {
+      "name": "Hailton",
+      "country": "Brasil",
+      "gender": "M",
+      "modality": "Futebol",
+      "category": "Futebol masculino",
+      "id": 5
+    },
+    {
+      "name": "Beatrice",
+      "country": "Itália",
+      "gender": "F",
+      "modality": "Esportes aquáticos",
+      "category": "Natação",
+      "id": 6
+    },
+    {
+      "name": "Antonio",
+      "country": "Itália",
+      "gender": "M",
+      "modality": "Atletismo",
+      "category": "Corrida de 100 metros",
+      "id": 7
+    },
+    {
+      "name": "Agustín",
+      "country": "Argentina",
+      "gender": "M",
+      "modality": "Esportes aquáticos",
+      "category": "Canoagem",
+      "id": 8
+    },
+    {
+      "name": "Eugenia",
+      "country": "Argentina",
+      "gender": "F",
+      "modality": "Atletismo",
+      "category": "Revezamento 4/100",
+      "id": 9
+    }
+  ]
+}
