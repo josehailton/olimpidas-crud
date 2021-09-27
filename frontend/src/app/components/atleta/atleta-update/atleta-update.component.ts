@@ -29,7 +29,7 @@ export class AtletaUpdateComponent implements OnInit {
   updateAtleta(): void {
     const id = this.route.snapshot.paramMap.get('id');
     this.atletaService.update(this.atleta).subscribe(() => {
-      this.atletaService.showMessage('Produto Atualizado com sucesso!');
+      this.atletaService.showMessage('Atleta Atualizado com sucesso!');
       this.router.navigate(['/atletas']);
     });
   }
